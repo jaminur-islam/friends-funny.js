@@ -1,6 +1,6 @@
     let h1 = document.getElementsByTagName('h1')[0];
     let btn = document.getElementsByTagName('button')[0];
-    let photo = [ ,"/img/sagor1 (2).jpg" , "/img/moinul.jpg" , " /img/ropon.jpg" , "/img/rifat.jpg" , "/img/ashik.jpg" ,"/img/shimul.jpg" , "/img/limon.jpg"];
+    let photo = [ ,"img/sagor1 (2).jpg" , "img/moinul.jpg" , " img/ropon.jpg" , "img/rifat.jpg" , "img/ashik.jpg" ,"img/shimul.jpg" , "img/limon.jpg"];
     let nn = 0;
     let imgTag = document.getElementsByTagName('img')[0];
     let text = document.getElementById('text');
