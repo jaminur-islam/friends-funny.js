@@ -1,6 +1,7 @@
+
     let h1 = document.getElementsByTagName('h1')[0];
     let btn = document.getElementsByTagName('button')[0];
-    let photo = [ ,"img/sagor1 (2).jpg" , "img/moinul.jpg" , " img/ropon.jpg" , "img/rifat.jpg" , "img/ashik.jpg" ,"img/shimul.jpg" , "img/limon.jpg"];
+    let photo = [ ,"img/sagor1 (2).jpg" , "img/moinul.jpg" , " img/ropon.jpg" , "img/rifat.jpg" , "img/ashik.jpg" ,"img/shimul.jpg" , "img/limon.jpg" ,"img/shakib.jpg"];
     let nn = 0;
     let imgTag = document.getElementsByTagName('img')[0];
     let text = document.getElementById('text');
@@ -21,45 +22,53 @@
 
        }else if(input == 'jaminur islam sagor'){
        imgTag.src = photo[1];
-       text.innerHTML='sala amar nam lekhsos kan'
-       h1.innerHTML = 'onk valo namush jibon e onek onnuti korte parbo';
+       text.innerHTML='sala amar nam lekhsos kan arek bar zodi amar nam lekhos tor nak fatamu..'
+       h1.innerHTML = 'chele ta onk valo, innocent boy';
        }
        else if (input == 'Moinul Hasan'){
          imgTag.src = photo[2];
        text.innerHTML='type your Facebook other friend names'
-       h1.innerHTML = 'onk valo namush jibon e onek onnuti korte parbo';
+       h1.innerHTML = 'filancing e onk valo korte parba futuere ';
 
        }
        else if (input == 'Aryn Ahmed'){
          imgTag.src = photo[3];
        text.innerHTML='type your Facebook other friend names'
-       h1.innerHTML = 'onk valo namush jibon e onek onnuti korte parbo';
+       h1.innerHTML = 'sala jambo togo xm hoboi...';
 
        }
        else if (input == 'Rj Rifat'){
          imgTag.src= photo[4];
        text.innerHTML='type your Facebook other friend names'
-       h1.innerHTML = 'onk valo namush jibon e onek onnuti korte parbo';
+       h1.innerHTML = 'Mim er asha bad de..mim e khailo sobaire';
 
        }
        else if (input == 'Ash Ik'){
          imgTag.src = photo[5];
        text.innerHTML='type your Facebook other friend names'
-       h1.innerHTML = 'onk valo namush jibon e onek onnuti korte parbo';
+       h1.innerHTML = 'বাসাইলের ভবিষৎ সফটওয়ার  ইঞ্জেনিয়ার। ';
 
        }
        else if (input == 'Shimul Khan'){
          imgTag.src = photo[6];
        text.innerHTML='type your Facebook other friend names'
-       h1.innerHTML = 'onk valo namush jibon e onek onnuti korte parbo';
+       h1.innerHTML = 'oVery good people can improve their lives ';
 
        }
        else if (input == 'Limon Khandokar'){
          imgTag.src = photo[7];
        text.innerHTML='type your Facebook other friend names'
-       h1.innerHTML = 'sonk valo namush jibon e onek onnuti korte parbo';
+       h1.innerHTML = 'm*c er dekha zaitase salay eknumber er m*c sala magi baj';
 
-       }else {
+       }
+       else if (input == 'Sakib Alhasan'){
+         imgTag.src = photo[8];
+       text.innerHTML='type your Facebook other friend names'
+       h1.innerHTML = ' matha muta vuri fula ';
+
+       }
+       
+       else {
          alert('sala bal lekho fb nam lekhon marao')
        }
      
@@ -75,6 +84,11 @@
 
 
    })
+
+
+
+
+
 
 
 
